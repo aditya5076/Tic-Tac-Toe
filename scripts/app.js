@@ -43,5 +43,3 @@ formElement.addEventListener("submit", savePlayersConfigs);
 startGameBtnElement.addEventListener("click", startNewGame);
 gameBoardElement.addEventListener("click", selectGameField);
 gameOverElement.addEventListener("click", resetGameStatus);
-
-console.log(gameData);

@@ -1,7 +1,8 @@
 function resetGameStatus() {
   currentRound = 1;
   activePlayer = 0;
-  gameOverElement.firstElementChild.innerHTML = "<h2>You won <span id="winner-name">PLAYER NAME</span> !</h2>";
+  gameOverElement.firstElementChild.innerHTML =
+    '<h2>You won <span id="winner-name">PLAYER NAME</span> !</h2>';
   gameOverElement.style.display = "none";
   activeGameAreaElement.style.display = "none";
   let gameBoardIndex = 0;
