@@ -37,3 +37,15 @@ body {
   background-color: rgb(217, 140, 240);
   border-color: transparent;
 }
+
+footer {
+  background-color: rgb(140, 0, 255);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

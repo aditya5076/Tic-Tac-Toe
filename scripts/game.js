@@ -5,6 +5,7 @@ function resetGameStatus() {
     '<h2>You won <span id="winner-name">PLAYER NAME</span> !</h2>';
   gameOverElement.style.display = "none";
   activeGameAreaElement.style.display = "none";
+  footerElement.style.position = "fixed";
   let gameBoardIndex = 0;
   isGameOver = false;
   for (let i = 0; i < 3; i++) {
@@ -23,6 +24,7 @@ function startNewGame(event) {
     return;
   }
   resetGameStatus();
+  footerElement.style.position = "relative";
   activeGameAreaElement.style.display = "block";
   activePlayerNameElement.textContent = players[activePlayer].name;
 }

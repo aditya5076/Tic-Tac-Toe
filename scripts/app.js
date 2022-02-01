@@ -28,6 +28,7 @@ const activeGameAreaElement = document.getElementById("active-game");
 const gameBoardElement = document.getElementById("game-board");
 const activePlayerNameElement = document.getElementById("active-player-name");
 const gameOverElement = document.getElementById("game-over");
+const footerElement = document.querySelector("footer");
 
 const player1EditBtn = document.getElementById("edit-player-1-btn");
 const player2EditBtn = document.getElementById("edit-player-2-btn");
